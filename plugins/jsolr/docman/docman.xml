@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="3.4" type="plugin" group="jsolr" method="upgrade">
+    <name>plg_jsolr_docman</name>
+    <creationDate>2016-12-16</creationDate>
+    <author>KnowledgeArc Ltd</author>
+    <authorEmail>development@knowledgearc.com</authorEmail>
+    <authorUrl>http://www.knowledgearc.org</authorUrl>
+    <copyright>>Copyright (C) 2012-2016 KnowledgeArc Ltd. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>1.0.0-alpha</version>
+    <description>PLG_JSOLR_DOCMAN_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="docman">docman.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_jsolr_docman.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_jsolr_docman.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" priority="1" name="JSolr DOCman Plugin"><![CDATA[https://raw.githubusercontent.com/knowledgearcdotorg/jsolr-docman-plugin/master/manifest.xml]]></server>
+    </updateservers>
+</extension>
